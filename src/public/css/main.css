@@ -1,0 +1,73 @@
+
+
+.logo {
+  width: 30%;
+}
+
+
+/*---------- Estilo exportado del proyecto sky --------*/
+
+
+
+.text-platzi{
+  color: #97c93e !important;
+}
+
+.btn-Platzi{
+  background: #fffc00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+}
+.btn-Platzi:hover{
+  background-color: #82ad36;
+}
+
+#header img {
+  width: 80px;
+}
+
+#main .carousel-inner img {
+  
+  max-height: 80vh;
+  object-fit: cover;
+}
+#carousel {
+  position: relative;
+}
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .container{
+height: 100%;  
+} 
+
+#footer {
+  background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+}
+#footer a {
+  color:white;
+}
+
+#place-time img{
+  max-width: 100%;
+}
+#place-time{
+  background-color: #343a40;
+  color: white;
+}
+
+
+
+
+
+
