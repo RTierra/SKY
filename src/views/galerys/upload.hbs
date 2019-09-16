@@ -3,26 +3,25 @@
             <div class="col-md-4 offset-md-4">
                 <div class="card">
                     <div class="card-header text-center">
-                        <h3>Upload an Image</h3>
+                        <h3>Sube tu imagen</h3>
                     </div>
                     <div class="card-body">
                         <form action="/galery/upload" method="post" enctype="multipart/form-data">
                             <div class="input-group mb-3">
                                 <div class="custom-file">
                                     <input type="file" name="image" class="custom-file-input" id="inputGroupFile02">
-                                    <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose
-                                        file</label>
+                                    <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Eligue una imagen</label>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="title" placeholder="Title" class="form-control">
+                                <input type="text" name="title" placeholder="Agrega un titulo" class="form-control">
                             </div>
                             <div class="form-group">
-                                <textarea name="description" placeholder="Description" class="form-control"></textarea>
+                                <textarea name="description" placeholder="Agrega una description" class="form-control"></textarea>
                             </div>
                             <div class="form-group">
-                                <button class="btn btn-success btn-block">
-                                    Upload
+                                <button class="btn btn-success btn-block" href="botondesubida">
+                                    Cargar imagen
                                 </button>
                             </div>
                         </form>
