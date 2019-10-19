@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.set('useFindAndModify', false);
-mongoose.connect('mongodb+srv://ricardo:basededatosdericardo@sky-database-riqjg.gcp.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://ricardo:basededatosdericardo@sky-database-riqjg.gcp.mongodb.net/sky-database?retryWrites=true&w=majority', {
   useCreateIndex: true,
   useNewUrlParser: true,
   useUnifiedTopology: true 

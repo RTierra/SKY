@@ -41,12 +41,16 @@ app.use(passport.session());
 app.use(flash());
 const storage = multer.diskStorage({
   destination: path.join(__dirname, 'public/img/uploads'),
-  filename: (req, file, cb, filename) => {
+    filename: (req, file, cb, filename) => {
       console.log(file);
       cb(null, uuid() + path.extname(file.originalname));
   }
 });
-app.use(multer({storage}).single('image'));
+app.use(multer({
+  storage,
+  dest: path.join(__dirname, 'public/img/uploads'),
+  limits:{fileSize: 3000000}
+}).single('image'));
 
 // Global Variables
 app.use((req, res, next) => {

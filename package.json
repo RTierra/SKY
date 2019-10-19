@@ -4,7 +4,7 @@
   "description": "Pagina web de Sky is the Limit",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/"
+    "dev": "nodemon ./src/index.js"
   },
   "author": "Ricardo Tierra",
   "license": "ISC",
@@ -26,6 +26,6 @@
     "uuid": "^3.3.3"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "nodemon": "^1.19.4"
   }
 }
